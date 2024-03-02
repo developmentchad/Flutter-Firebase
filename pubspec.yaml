@@ -35,7 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_fonts: ^6.1.0
+  google_fonts: 6.1.0
+  #https://stackoverflow.com/questions/78090711/error-type-fontfeature-not-found-flutter-google-fonts-package-error
+  #There was an issue raised an hour before yours. When you downgrade packages, make sure to remove the caret (^) in front of the version number. For example: google_fonts: 6.1.0
   smooth_page_indicator: ^1.1.0
   introduction_screen: ^3.1.12
   shared_preferences: ^2.2.2
